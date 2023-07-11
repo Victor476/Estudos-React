@@ -5,7 +5,7 @@
 - ✅[React] componente usando props.children
 - ✅[React] componente usando props
 - ✅[React] componente com eventos
-- 🔴[React] componente com estado
+- ✅[React] componente com estado
 - 🔴[React] comunicação entre componente (direta)
 - 🔴[React] comunicação entre componente (indireta)
 - 🔴[React] redenrização condicional

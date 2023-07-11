@@ -28,14 +28,23 @@ export default function ImagemAleatoria(){
 
     return (
         <div className="flex flex-col gap-3 border border-zinc-500 p-7 rounded-md">
-            <Image src={urlImagem()} height={300} width={300} alt="Imagem"/>
+            <div className={`flex justify-center gap-7 mb-5`}>
+                <span>{pesquisa}</span>
+                <span>{tamanho}x{tamanho}</span>
+            </div>
+            <Image src={urlImagem()} height={300} width={300} alt="Imagem" className="rounded-md"/>
             <div className="flex justify-between gap-5">
             {rederizaBotao('abstract')}
             {rederizaBotao('city')}
             {rederizaBotao('person')}
             </div>
             <div>
-                <input type="text" />
+                <input type="number" 
+                value={tamanho} 
+                className={`bg-zinc-800 p-2 rounded-md outline-none w-full` } 
+                onChange={e=> {
+                    alterarTamanho(+e.target.value)
+                }} />
             </div>
         </div>
 
