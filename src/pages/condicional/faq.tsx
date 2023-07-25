@@ -1,4 +1,5 @@
 import Faq from "@/Components/condicional/Faq";
+import { useState } from "react";
 
 export default function PaginaFaq(){
     return (
