@@ -10,5 +10,5 @@
 - ✅[React] comunicação entre componente (direta)
 - ✅[React] comunicação entre componente (indireta)
 
-- 🔴[React] rendenrização condicional
-- 🔴[React] rendenrização de listas
+- ✅[React] rendenrização condicional
+- ✅[React] rendenrização de listas
